@@ -1,0 +1,27 @@
+{
+  "name": "sts2-relics-in-mtg-webapp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.1.1",
+    "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "prettier": "^3.8.3",
+    "prettier-plugin-svelte": "^3.5.1",
+    "svelte": "^5.55.1",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.4"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1",
+    "mana-font": "^1.18.0",
+    "svelte-awesome": "^3.3.5",
+    "svelte-spa-router": "^5.0.1"
+  }
+}
