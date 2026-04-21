@@ -12,4 +12,7 @@ export default defineConfig({
       '@app': path.resolve(__dirname, './src'),
     },
   },
+  base: process.env.GITHUB_REPOSITORY
+    ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/`
+    : '/',
 })
